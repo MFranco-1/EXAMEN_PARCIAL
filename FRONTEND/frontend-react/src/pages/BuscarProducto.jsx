@@ -13,7 +13,7 @@ function BuscarProducto({ regresar }) {
     setMensaje("");
 
     try {
-      const respuesta = await fetch(`http://127.0.0.1:5000/producto/${codigo}`);
+      const respuesta = await fetch(`https://tendencias-import.onrender.com/producto/${codigo}`);
       const datos = await respuesta.json();
 
       if (datos.success) {
