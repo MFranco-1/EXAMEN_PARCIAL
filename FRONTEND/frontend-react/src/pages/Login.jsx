@@ -12,7 +12,7 @@ function Login({ onLoginCorrecto }) {
     setMensaje("");
 
     try {
-      const respuesta = await fetch("https://tendencias-import.onrender.com/", {
+      const respuesta = await fetch("https://tendencias-import.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ usuario, contrasena }),
