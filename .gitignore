@@ -1,0 +1,27 @@
+# Entorno virtual de Python
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno
+.env
+
+# Base de datos local
+*.sqlite3
+*.db
+
+# Node / React
+frontend-react/node_modules/
+frontend-react/dist/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
