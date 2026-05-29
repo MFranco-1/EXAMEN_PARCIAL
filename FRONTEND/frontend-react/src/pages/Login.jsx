@@ -12,7 +12,7 @@ function Login({ onLoginCorrecto }) {
     setMensaje("");
 
     try {
-      const respuesta = await fetch("http://127.0.0.1:5000/login", {
+      const respuesta = await fetch("https://tendencias-import.onrender.com/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ usuario, contrasena }),
